@@ -22,21 +22,7 @@ Sebelum memulai, pastikan komputer Anda telah terinstal:
 2. Buka aplikasi **VSCode**.
 3. Pilih menu **File** -> **Open Folder...** lalu pilih folder utama proyek `IRGIkopi` Anda.
 
-#### Langkah B: Konfigurasi Environment Variables (`.env`)
-Aplikasi memerlukan beberapa kunci konfigurasi (seperti API Key untuk asisten AI).
-1. Di dalam folder utama proyek, cari file bernama **`.env.example`**.
-2. Salin (*copy*) file tersebut dan ganti namanya menjadi **`.env`**.
-3. Buka file **`.env`** yang baru dibuat, lalu isi variabel berikut:
-   ```env
-   # Masukkan API Key Gemini Anda di sini untuk mengaktifkan fitur asisten kopi AI
-   GEMINI_API_KEY="ISI_DENGAN_GEMINI_API_KEY_ANDA"
-   
-   # Gunakan localhost untuk pengembangan di komputer lokal
-   APP_URL="http://localhost:3000"
-   ```
-   *(Catatan: Anda dapat memperoleh API Key secara gratis melalui Google AI Studio).*
-
-#### Langkah C: Instal Dependensi (*Packages*)
+#### Langkah B: Instal Dependensi (*Packages*)
 1. Buka terminal terintegrasi di VSCode dengan menekan tombol kombinasi ``Ctrl + ` `` (atau menu **Terminal** -> **New Terminal**).
 2. Jalankan perintah di bawah ini untuk menginstal semua modul pendukung yang dibutuhkan aplikasi:
    ```bash
